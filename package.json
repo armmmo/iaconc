@@ -15,7 +15,7 @@
     "next": "13.4.10",
     "next-auth": "^4.22.1",
     "pg": "^8.10.0",
-    "pgvector": "^0.4.0",
+    "pgvector": "^latest",
     "prisma": "^4.12.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
