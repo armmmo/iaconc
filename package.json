@@ -1,0 +1,25 @@
+
+{
+  "name": "rag-nextjs-saas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "next": "13.4.10",
+    "next-auth": "^4.22.1",
+    "pg": "^8.10.0",
+    "pgvector": "^0.4.0",
+    "prisma": "^4.12.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "axios": "^1.4.0"
+  }
+}
