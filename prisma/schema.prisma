@@ -35,7 +35,7 @@ model File {
   id          Int       @id @default(autoincrement())
   filename    String
   source      Source
-  sourceId    String
+  sourceId    String    @unique 
   embedded   Boolean    @default(false)
   uploadedBy  User      @relation(fields: [uploadedById], references: [id])
   uploadedById Int
